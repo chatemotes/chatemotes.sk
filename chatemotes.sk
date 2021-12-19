@@ -1,0 +1,1193 @@
+options:
+    version: 1.9
+
+    emote cooldown: 30 seconds
+    nsfw emote cooldown: 1 minute
+    smoke cooldown: 3 minutes
+    applause cooldown: 10 minutes
+    list cooldown: 10 seconds
+
+    nsfw: false
+
+    slap deals damage: false # Requires SkQuery
+    punch deals damage: false # Requires SkQuery
+    scratch deals damage: false # Requires SkQuery
+
+    smoke_joint_apply_effects: true # Includes Slowness, Hunger, and Regeneration
+    smoke_cig_apply_effects: true # Includes Nausea, and Swiftness
+
+#   How much damage should a slap/punch/scratch do? (Requires SkQuery)
+    slap damage: 2
+    punch damage: 3
+    scratch damage: 1
+
+
+#   Messages
+
+    permission message: "&cYou do not have permission to use emotes."
+
+    amazed_player: "&3%player% &bis amazed."
+    amused_player: "&3%player% &bis amused."
+    player_belch: "&3%player% &bburps."
+    player_blush: "&3%player% &bblushes."
+
+    player_cheer: "&3%player% &bcheers."
+    player_cheer_others: "&3%player% &bcheers on &3%{_a}%."
+
+    player_clap: "&3%player% &bclaps."
+    player_cringe: "&3%player% &bcringed."
+    player_cry: "&3%player% &bstarts to cry."
+    
+    player_dab: "&3%player% &b<o/"
+
+    player_dance_alone: "&3%player% &bbusts a move."
+    player_dance_others: "&3%player% &bdances with &3%{_a}%."
+
+    player_glare: "&3%player% &bglares at &3%{_a}%."
+
+    player_fart: "&3%player% &bfarts."
+    player_flinch: "&3%player% &bflinches."
+    player_flirt: "&3%player% &bgets flirty with &3%{_a}%."
+    player_gg: "&e%player%&0: &6&lGG!"
+    player_handshake: "&3%player% &bshakes hands with &3%{_a}%."
+
+    player_hug_self: "&3%player% &bhugs themself."
+    player_hug: "&3%player% &bhugs &3%{_a}%."
+    player_kiss: "&3%player% &bkisses &3%{_a}%."
+
+    player_laugh: "&3%player% &blaughs."
+    player_laugh_others: "&3%player% &blaughs at &3%{_a}%."
+
+    player_nuzzle: "&3%player% &bnuzzles &3%{_a}%."
+    player_pet: "&3%player% &bpets &3%{_a}%"
+    player_puke: "&3%player% &bvomits."
+
+    player_punch_self: "&3%player% &bpunches themself."
+    player_punch: "&3%player% &bpunches &3%{_a}%."
+
+    player_salute: "&3%player% &bsalutes."
+    player_salute_others: "&3%player% &bsalutes &3%{_a}%."
+
+    player_scratch_self: "&3%player% &bscratches their head."
+    player_scratch_others: "&3%player% &bscratches &3%{_a}% &bacross the face."
+
+    player_scream: "&3%player% &bSCREAMS!"
+    player_scream_others: "&3%player% &bscreams at %{_a}%."
+
+    player_sing: "&3%player% &bbursts into song!"
+    player_sing_others: "&3%player% &bsings to &3%{_a}%."
+
+    player_slap_self: "&3%player% &bslaps themself in the face."
+    player_slap_others: "&3%player% &bsmacks &3%{_a}%."
+
+    player_smell: "&3%player%&b takes a whiff."
+
+    player_smoke_cig: "&3%player% &bsmokes a cigarette."
+    player_smoke_joint: "&3%player% &bsmokes a joint."
+
+    player_snort: "&3%player% &bsnorts."
+
+    player_spit: "&3%player%&b spits."
+    player_spit_others: "&3%player% &bspits on &3%{_a}%."
+
+    player_stare_noarg: "&3%player% &bstares out into space."
+    player_stare_others: "&3%player% &bcasually stares at &3%{_a}%."
+
+    player_stomp: "&3%player% &bstomps the ground."
+    others_stomp: "&3%{_a}% &bstomps the ground."
+
+    player_squat: "&3%player% &bsquats."
+
+    player_thank: "&3%player% gives thanks."
+    player_thank_others: "&3%player% &bthanks &3%{_a}%."
+
+    player_think: "&3%player% &bstops to think."
+    player_threaten: "&3%player%&b threatens &3%{_a}%."
+
+    player_urinate: "&3%player% &burinates."
+
+    player_wave: "&3%player% &bwaves to the server."
+    player_wave_other: "&3%player% &bwaves to &3%{_a}%."
+
+    player_whine: "&3%player% &bstarts to whine."
+
+    player_whistle: "&3%player% &bwhistles a familiar tune."
+
+
+#   NSFW Messages
+
+    nsfw_command_disabled: "&cNSFW Emotes are disabled."
+    command disabled message: "&cThat command is disabled."
+
+    player_aroused: "&3%player% &bis aroused."
+
+    player_ejaculate: "&3%player% &bejaculates."
+    player_ejaculate_self: "&3%player% &bcums on themself."
+    player_ejaculate_others: "&3%player% &bcums on &3%{_a}%."
+
+    player_grope: "&3%player% &bgently gropes &3%{_a}%."
+
+    player_lick_self: "&3%player% &blicks the air."
+    player_lick_others: "&3%player% &blicks &3%{_a}%."
+
+
+#   Permissions
+    emote admin: emote.admin
+    amazed: emotes.amazed
+    amused: emotes.amused
+    applause: emotes.admin.applause
+    aroused: emotes.aroused
+    belch: emotes.belch
+    blush: emotes.blush
+    cheer: emotes.cheer
+    clap: emotes.clap
+    cringe: emotes.cringe
+    cry: emotes.cry
+    dab: emotes.dab
+    dance: emotes.dance
+    ejaculate: emotes.ejaculate
+    glare: emotes.glare
+    fart: emotes.fart
+    flinch: emotes.flinch
+    flirt: emotes.flirt
+    gg: emotes.gg
+    grope: emotes.grope
+    handshake: emotes.handshake
+    hug: emotes.hug
+    kiss: emotes.kiss
+    laugh: emotes.laugh
+    lick: emotes.lick
+    nuzzle: emotes.nuzzle
+    pet: emotes.pet
+    puke: emotes.puke
+    punch: emotes.punch
+    salute: emotes.salute
+    scratch others: emotes.scratch.others
+    scratch: emotes.scratch
+    scream: emotes.scream
+    sing: emotes.sing
+    slap: emotes.slap
+    spit: emotes.spit
+    spit_others: emotes.spit.others
+    squat: emotes.squat
+    smell: emotes.smell
+    smoke_cig: emotes.smoke.cig
+    smoke_joint: emotes.smoke.joint
+    snort: emotes.snort
+    stare: emotes.stare
+    stomp others: emotes.stomp.others
+    stomp: emotes.stomp
+    thank: emotes.thank
+    think: emotes.think
+    urinate: emotes.urinate
+    wave: emotes.wave
+    whine: emotes.whine
+    whistle: emotes.whistle
+    emotes list: emotes.list
+
+    command disabled message: "&cCommand Disabled."
+    permission message: "&4You do not have access to this command."
+    startup version message: true
+
+
+variables:
+#   0 = Disable Command
+#   1 = Enable Command
+    {amaze} = 1
+    {amuse} = 1
+    {applause} = 1
+    {arouse} = 1
+    {belch} = 1
+    {blush} = 1
+    {cheer} = 1
+    {clap} = 1
+    {cringe} = 1
+    {cry} = 1
+    {dab} = 1
+    {dance} = 1
+    {ejaculate} = 1
+    {glare} = 1
+    {fart} = 1
+    {flinch} = 1
+    {flirt} = 1
+    {gg} = 1
+    {grope} = 1
+    {handshake} = 1
+    {hug} = 1
+    {kiss} = 1
+    {laugh} = 1
+    {lick} = 1
+    {nuzzle} = 1
+    {pet} = 1
+    {puke} = 1
+    {punch} = 1
+    {salute} = 1
+    {scratch} = 1
+    {scream} = 1
+    {sing} = 1
+    {slap} = 1
+    {spit} = 1
+    {squat} = 1
+    {smell} = 1
+    {smoke cig} = 1
+    {smoke joint} = 1
+    {snort} = 1
+    {stare} = 1
+    {stomp} = 1
+    {thank} = 1
+    {think} = 1
+    {urinate} = 1
+    {wave} = 1
+    {whine} = 1
+    {whistle} = 1
+
+
+# DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING #
+
+command /emotes [<text>]:
+    description: "List of emotes."
+    aliases: /emote, /chatemotes
+    permission: {@emotes list}
+    permission message: {@permission message}
+    cooldown: {@list cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if arg-1 is set:
+            set {_a1} to arg-1
+            if {_a1} is "reload":
+                if player has permission "{@emote admin}":
+                    execute console command "/sk reload chatemotes"
+                    send "&3ChatEmotes &bReloaded!"
+                else:
+                    if player has permission "{@emotes list}":
+                        send "&cUsage: /emotes" to the player
+                    else:
+                        send {@permission message} to the player
+            else:
+                {@nsfw} is false:
+                    send "&bEmotes: &3/amazed, /amused, /applause, /belch, /blush, /cheer, /clap, /cringe, /cry, /dab, /dance, /glare, /fart, /flinch, /flirt, /gg, /handshake, /hug, /kiss, /laugh, /nuzzle, /pet, /puke, /punch, /salute, /scratch, /scream, /sing, /slap, /smell, /smoke, /snort, /spit, /squat, /stare, /stomp, /thank, /think, /urinate, /wave, /whine, /whistle" to the player
+                    send "&3Running Chat Emotes &bv{@version}"
+                    set {list.%player%.lastused} to now
+                    stop
+                {@nsfw} is true:
+                    send "&bEmotes: &3/amazed, /amused, /applause, /belch, /blush, /cheer, /clap, /cringe, /cry, /dab, /dance, /glare, /fart, /flinch, /flirt, /gg, /handshake, /hug, /kiss, /laugh, /nuzzle, /pet, /puke, /punch, /salute, /scratch, /scream, /sing, /slap, /smell, /smoke, /snort, /spit, /squat, /stare, /stomp, /thank, /think, /urinate, /wave, /whine, /whistle" to the player
+                    send "&cNSFW Emotes: &4/aroused, /ejaculate, /lick, /grope" to the player
+                    send "&3Running Chat Emotes &bv{@version}"
+                    set {list.%player%.lastused} to now
+                    stop
+        else:
+            if {@nsfw} is false:
+                send "&bEmotes: &3/amazed, /amused, /applause, /belch, /blush, /cheer, /clap, /cringe, /cry, /dab, /dance, /glare, /fart, /flinch, /flirt, /gg, /handshake, /hug, /kiss, /laugh, /nuzzle, /pet, /puke, /punch, /salute, /scratch, /scream, /slap, /sing, /smell, /smoke, /snort, /spit, /squat, /stare, /stomp, /thank, /think, /urinate, /wave, /whine, /whistle" to the player
+                send "&3Running Chat Emotes &bv{@version}"
+                set {list.%player%.lastused} to now
+                stop
+            else if {@nsfw} is true:
+                send "&bEmotes: &3/amazed, /amused, /applause, /belch, /blush, /cheer, /clap, /cringe, /cry, /dab, /dance, /glare, /fart, /flinch, /flirt, /gg, /handshake, /hug, /kiss, /laugh, /nuzzle, /pet, /puke, /punch, /salute, /scratch, /scream, /slap, /sing, /smell, /smoke, /snore, /spit, /squat, /stare, /stomp, /thank, /think, /urinate, /wave, /whine, /whistle" to the player
+                send "&cNSFW Emotes: &4/aroused, /ejaculate, /lick, /grope" to the player
+                send "&3Running Chat Emotes &bv{@version}"
+                set {list.%player%.lastused} to now
+                stop
+
+
+on load:
+    {@startup version message} is true:
+        send "&bRunning ChatEmotes &3v{@version}" to the console
+    stop
+
+
+command /amazed:
+    aliases: /woah, /wow, /amaze
+    description: "Show the server how amazed you are."
+    permission: {@amazed}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {amaze} is 1:
+            send {@amazed_player} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /amused:
+    aliases: /amuse
+    description: "Show the server how amused you are."
+    permission: {@amused}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {amuse} is 1:
+            send {@amused_player} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /applause:
+    description: "Make the whole server clap."
+    permission: {@applause}
+    permission message: {@permission message}
+    cooldown: {@applause cooldown}
+    cooldown message: &cYou cannot use that command for another &4%remaining time%.
+    trigger:
+        if {applause} is 1:
+            loop all players:
+                if loop-player has permission "{@applause}":
+                    execute player command "/clap"
+                else:
+                    stop
+        else:
+            send {@command disabled message}
+
+
+command /belch:
+    aliases: /burp
+    description: "Belch."
+    permission: {@belch}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {belch} is 1:
+            send {@player_belch} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /blush:
+    aliases: /blushes, /hehe
+    description: "Blush."
+    permission: {@blush}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {blush} is 1:
+            send {@player_blush} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /cheer [<player>]:
+    description: "Cheer on another player or just cheer for the sport."
+    permission: {@cheer}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {cheer} is 1:
+            if arg-1 is not set:
+                send {@player_cheer} to all players
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_cheer} to all players
+                else:
+                    send {@player_cheer_others} to all players
+        else:
+            send {@command disabled message}
+
+
+command /clap:
+    description: "Clap."
+    permission: {@clap}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%.
+    trigger:
+        if {clap} is 1:
+            send {@player_clap} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /cringe:
+    description: "Cringe."
+    permission: {@cringe}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {cringe} is 1:
+            send {@player_cringe} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /cry:
+    aliases: /wallow, /sob, /bawl
+    description: "Start to cry."
+    permission: {@cry}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {cry} is 1:
+            send {@player_cry} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /dab:
+    description: "Dab."
+    permission: {@dab}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {dab} is 1:
+            send {@player_dab} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /dance [<player>]:
+    description: "Dance with someone."
+    permission: {@dance}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {dance} is 1:
+            if arg 1 is not set:
+                send {@player_dance_alone} to the player
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_dance_alone} to the player
+                else:
+                    send {@player_dance_others} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /glare [<player>]:
+    description: "Glare at another player."
+    permission: {@glare}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%.
+    trigger:
+        if {glare} is 1:
+            if arg 1 is not set:
+                send "&cUsage: /glare <player>" to the player
+                stop
+            else:
+                set {_a} to arg 1
+                if name of player is {_a}:
+                    send "&cYou cannot glare at yourself." to the player
+                else:
+                    send {@player_glare} to all players
+
+
+command /fart:
+    description: "Fart."
+    permission: {@fart}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {fart} is 1:
+            send {@player_fart} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /flinch:
+    description: "Flinch."
+    permission: {@flinch}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is disabled for another &4%remaining time%&c.
+    trigger:
+        if {flinch} is 1:
+            send {@player_flinch} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /flirt [<player>]:
+    description: "Flirt with someone"
+    permission: {@flirt}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {flirt} is 1:
+            if arg-1 is not set:
+                send "&cUsage: /flirt <player>" to the player
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send "&cYou cannot flirt with yourself." to the player
+                    stop
+                else:
+                    send {@player_flirt} to all players
+                    stop
+            player has permission "{@emote admin}":
+                send "&cThat command is disabled!" to the player
+        else:
+            send {@command disabled message} to the player
+
+
+command /gg:
+    aliases: /goodgame
+    description: "Show your graditude with a good game message."
+    permission: {@gg}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {gg} is 1:
+            send {@player_gg} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /handshake [<player>]:
+    description: "Shake hands with another player."
+    aliases: /shake
+    permission: {@handshake}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {handshake} is 1:
+            if arg 1 is not set:
+                send "&cUsage: /handshake <player>" to the player
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send "&cYou cannot give yourself a handshake" to the player
+                    stop
+                else if player's name is not {_a}:
+                    send {@player_handshake} to all players
+                    stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /hug [<player>]:
+    description: "Give yourself or another player a hug."
+    permission: {@hug}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {hug} is 1:
+            if arg 1 is not set:
+                send {@player_hug_self} to all players
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_hug_self} to all players
+                else:
+                    send {@player_hug} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /kiss [<player>]:
+    description: "Kiss another player."
+    aliases: /smooch, /mwah, /muah
+    permission: {@kiss}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {kiss} is 1:
+            if arg-1 is not set:
+                send "&cUsage: /kiss <player>" to the player
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send "&cYou cannot kiss yourself." to the player
+                    stop
+                else:
+                    send {@player_kiss} to the player
+                    stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /laugh [<player>]:
+    description: "Start laughing or laugh at another player."
+    permission: {@laugh}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c
+    trigger:
+        if {laugh} is 1:
+            if arg 1 is not set:
+                send {@player_laugh} to the player
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_laugh} to the player
+                else:
+                    send {@player_laugh_others} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /nuzzle [<player>]:
+    aliases: /eskimokiss
+    description: "Nuzzle another player."
+    permission: {@nuzzle}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {nuzzle} is 1:
+            if arg-1 is not set:
+                send "&cUsage /nuzzle <player>" to the player
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send "&cYou cannot nuzzle yourself." to the player
+                else:
+                    send {@player_nuzzle} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /pet [<player>]:
+    aliases: /pat
+    description: "Pet another player."
+    permission: {@pet}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {pet} is 1:
+            if arg-1 is not set:
+                send "&cUsage /pet <player>"
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send "&cYou cannot pet yourself" to the player
+                else:
+                    send {@player_pet}
+
+
+command /puke:
+    aliases: /vomit, /throwup, /munt
+    permission: {@puke}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {puke} is 1:
+            send {@player_puke} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /punch [<player>]:
+    description: "Punch yourself or someone else."
+    aliases: /hit, /juke
+    permission: {@punch}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c
+    trigger:
+        if {punch} is 1:
+            if arg 1 is not set:
+                send {@player_punch_self} to all players
+                if {@punch deals damage} is true:
+                    make player damage player by {@punch damage}
+                else:
+                    stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_punch_self} to all players
+                    if {@punch deals damage} is true:
+                        make player damage player by {@punch damage}
+                    else:
+                        stop
+                else:
+                    send {@player_punch} to all players
+                    if {@punch deals damage} is true:
+                        make player damage {_a} by {@punch damage}
+                    else:
+                        stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /salute [<player>]:
+    description: "Salute."
+    permission: {@salute}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c
+    trigger:
+        if {salute} is 1:
+            if arg-1 is not set:
+                send {@player_salute} to all players
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_salute} to all players
+                    stop
+                else:
+                    send {@player_salute_others} to all players
+                    stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /scratch [<player>]:
+    description: "Scratch yourself or another player."
+    permission: {@scratch}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {scratch} is 1:
+            if arg 1 is not set:
+                send {@player_scratch_self} to all players
+                if {@scratch deals damage} is true:
+                    make player damage player by {@scratch damage}
+                else:
+                    stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_scratch_self} to all players
+                    if {@scratch deals damage} is true:
+                        make player damage player by {@punch damage}
+                    else:
+                        stop
+                else:
+                    if player has permission "{@scratch others}":
+                        if {@scratch deals damage} is true:
+                            send {@player_scratch_others} to all players
+                            make player damage {_a} by {@scratch damage}
+                        else:
+                            stop
+                    else:
+                        send {@permission message} to player
+        else:
+            send {@command disabled message} to the player
+
+
+command /scream [<player>]:
+    aliases: /yell
+    description: "Let off some steam and scream at someone."
+    permission: {@scream}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {scream} is 1:
+            if arg 1 is not set:
+                send {@player_scream} to all players
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_scream} to all players
+                else:
+                    send {@player_scream_others} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /sing [<player>]:
+    description: "Sing alone or to someone."
+    permission: {@sing}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%.
+    trigger:
+        if {sing} is 1:
+            if arg-1 is not set:
+                send {@player_sing} to all players
+            else:
+                set {_a} to arg 1
+                if name of player is {_a}:
+                    send {@player_sing} to all players
+                else:
+                    send {@player_sing_others} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /slap [<player>]:
+    description: "Slap yourself or someone else. (Requires SkQuery)"
+    aliases: /smack, /backhand
+    permission: {@slap}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {slap} is 1:
+            if arg 1 is not set:
+                send {@player_slap_self} to all players
+                if {@slap deals damage} is true:
+                    make player damage player by {@slap damage}
+                else:
+                    stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_slap_self} to all players
+                    if {@slap deals damage} is true:
+                        make player damage player by {@slap damage}
+                    else:
+                        stop
+                else:
+                    send {@player_slap_others} to all players
+                    if {@slap deals damage} is true:
+                        make player damage {_a} by {@slap damage}
+                    else:
+                        stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /smell:
+    aliases: /sniff, /whiff
+    description: "Take a whiff of the air."
+    permission: {@smell}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat conmand is on cooldown for another &4%remaining time%.
+    trigger:
+        if {smell} is 1:
+            send {@player_smell} to all players
+        else:
+            send {@command disabled message}
+
+
+command /smoke [<text>]:
+    aliases: /spark
+    cooldown: {@smoke cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        set {_a} to arg-1
+        if {_a} is "cigarette":
+            if {smoke_cigs} is 1:
+                if player has permission "{@smoke_cig}":
+                    send {@player_smoke_cig} to all players
+                    if {@smoke_cig_apply_effects} is true:
+                        apply swiftness to the player for 10 seconds
+                        apply nausea to the player for 3 seconds
+                    else:
+                        stop
+                else:
+                    send {@permission message} to the player
+            else:
+                send {@command disabled message}
+        else if {_a} is "joint":
+            if {smoke_joint} is 1:
+                if player has permission "{@smoke_joint}":
+                    send {@player_smoke_joint} to all players
+                    if {@smoke_joint_apply_effects} is true:
+                        apply slowness to the player for {@smoke cooldown}
+                        apply regeneration to the player for 5 seconds
+                        apply hunger to the player for 5 seconds
+                    else:
+                        stop
+                else:
+                    send {@permission message} to the player
+        else:
+            send "&cUsage: /smoke <cigarette/joint>" to the player
+
+
+command /snort:
+    description: "Snort."
+    permission: {@snort}
+    permission message: {@permision message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%.
+    trigger:
+        if {snort} is 1:
+            send {@player_snort} to all players
+        else:
+            send {@command disabled message} to all players
+
+
+command /spit [<player>]:
+    description: "Spit at someone or randomly."
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {spit} is 1:
+            if arg-1 is not set:
+                if player has permission "{@spit}":
+                    send {@player_spit} to all players
+                else:
+                    send {@permission message} to the player
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    if player has permission "{@spit}":
+                        send {@player_spit} to all players
+                    else:
+                        send {@permission message} to the player
+                else:
+                    if player has permission "{@spit_others}":
+                        send {@player_spit_others} to all players
+                    else:
+                        send {@permission message}
+        else:
+            send {@command disabled message} to the player
+
+
+command /squat:
+    description: "Squat."
+    permission: {@squat}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {squat} is 1:
+            send {@player_squat} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /thank [<player>]:
+    aliases: /thankyou, /thanks
+    description: "Thank someone."
+    permission: {@thank}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {thank} is 1:
+            if arg-1 is not set:
+                send {@player_thank} to all players
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_thank} to all players
+                else:
+                    send {@player_thank_others} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /think:
+    description: "Stop to think."
+    permission: {@think}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%.
+    trigger:
+        if {think} is 1:
+            send {@player_think} to all players
+        else:
+            send {@permission message} to the player
+
+
+command /stare [<player>]:
+    description: "Stare at someone."
+    permission: {@stare}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {stare} is 1:
+            if arg 1 is not set:
+                send {@player_stare_noarg} to all players
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send "&cYou cannot stare at yourself." to the player
+                else:
+                    send {@player_stare_others} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /stomp [<player>]:
+    description: "Stomp on the ground."
+    permission: {@stomp}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {stomp} is 1:
+            if arg 1 is not set:
+                send {@player_stomp} to all players
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_stomp} to all players
+                    stop
+                else:
+                    if player has permission "{@stomp others}":
+                        send {@others_stomp} to all players
+                        stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /urinate:
+    description: "Take a whizz."
+    permission: {@urinate}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {urinate} is 1:
+            send {@player_urinate} to all players
+            apply absorption to the player for 4 seconds
+        else:
+            send {@command disabled message}
+
+
+command /wave [<player>]:
+    description: "Wave at the server or another player."
+    permission: {@wave}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {wave} is 1:
+            if arg 1 is not set:
+                send {@player_wave} to all players
+                stop
+            else:
+                set {_a} to arg-1
+                if name of player is {_a}:
+                    send {@player_wave} to all players
+                    stop
+                else:
+                    send {@player_wave_other} to all players
+                    stop
+        else:
+            send {@command disabled message} to the player
+
+
+command /whine:
+    description: "Whine."
+    permission: {@whine}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {whine} is 1:
+            send {@player_whine} to all players
+        else:
+            send {@command disabled message} to the player
+
+
+command /whistle:
+    aliases: /sing
+    description: "Whistle a tune."
+    permission: {@whistle}
+    permission message: {@permission message}
+    cooldown: {@emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {whistle} is 1:
+            set {whistle.%player%.lastused} to now
+            send {@player_whistle} to all players
+        else:
+            send {@command disabled message} to the player
+
+command /aroused:
+    aliases: /horny
+    description: "Announce to the server how aroused you are."
+    permission: {@aroused}
+    permission message: {@permission message}
+    cooldown: {@nsfw emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {@nsfw} is true:
+            if {arouse} is 1:
+                send {@player_aroused} to all players
+            else:
+                send {@command disabled message} to the player
+        else:
+            send {@nsfw_command_disabled} to the player
+
+
+command /ejaculate [<player>]:
+    aliases: /nut, /cum, /squirt
+    description: "Ejaculate onto yourself or another player."
+    permission: {@ejaculate}
+    permission message: {@permission message}
+    cooldown: {@nsfw emote cooldown}
+    cooldown message: &cThat comand is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {@nsfw} is true:
+            if {ejaculate} is 1:
+                if arg-1 is not set:
+                    send {@player_ejaculate} to all players
+                else:
+                    set {_a} to arg-1
+                    if name of player is {_a}:
+                        send {@player_ejaculate_self} to all players
+                    else:
+                        send {@player_ejaculate_others} to all players
+            else:
+                send {@command disabled message} to the player
+        else:
+            send {@nsfw_command_disabled} to the player
+
+
+
+command /grope [<player>]:
+    description: "Grope another player."
+    permission: {@grope}
+    permission message: {@permission message}
+    cooldown: {@nsfw emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {grope} is 1:
+            if arg-1 is not set:
+                send "&cUsage: /grope <player>" to the player
+                stop
+            else:
+                if {@nsfw} is true:
+                    set {_a} to arg-1
+                    if name of player is {_a}:
+                        send "&cYou cannot grope yourself." to the player
+                        stop
+                    else:
+                        send {@player_grope} to all players
+                        stop
+                else:
+                    send {@nsfw_command_disabled} to the player
+        else:
+            send {@command disabled message} to the player
+
+
+command /lick [<player>]:
+    description: "Lick the air or another player."
+    permission: {@lick}
+    permission message: {@permission message}
+    cooldown: {@nsfw emote cooldown}
+    cooldown message: &cThat command is on cooldown for another &4%remaining time%&c.
+    trigger:
+        if {lick} is 1:
+            if arg-1 is not set:
+                if {@nsfw} is true:
+                    send {@player_lick_self} to all players
+                else:
+                    send {@nsfw_command_disabled} to the player
+            else:
+                if {@nsfw} is true:
+                    set {_a} to arg-1
+                    if name of player is {_a}:
+                        send {@player_lick_self} to all players
+                        stop
+                    else:
+                        send {@player_lick_others} to all players
+                send {@nsfw_command_disabled} to the player
+        else:
+            send {@command disabled message} to the player
